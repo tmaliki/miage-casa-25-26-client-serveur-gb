@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page web</title>
+</head>
+
+<body>
+    <h1>Ma première page web</h1>
+
+    <script>
+        let a = 10; // entier (number)
+        var b = "Bonjour"; // chaîne de caractères (string)
+        const c = 3.14; // constante (number)
+        let d = true; // booléen (boolean)
+        let tableau = [1, 2, 3, 4, 5]; // tableau (array) : tableau d'entiers
+        let objet = { nom: "Alice", age: 25 }; // objet (object
+        let etudiants = [
+            { nom: "Alice", age: 25 },
+            { nom: "Bob", age: 22 },
+            { nom: "Charlie", age: 23 }
+        ] // tableau d'objets
+
+        // affichage des variables dans la console
+        // console.log(a)
+        console.log("Valeur de a = ", a);
+        console.log("Valeur de a = " + a);
+
+        console.log("Valeur de b = ", b);
+        console.log("Valeur de c = ", c);
+        console.log("Valeur de d = ", d);
+
+        console.log(tableau); // affichage classique
+        console.table(tableau); // affichage en tableau
+
+        console.log(objet); // affichage de l'objet
+        console.log("Nom : ", objet.nom); // affichage d'une propriété de l'objet
+        console.log("Age : ", objet.age);
+
+        console.table(etudiants); // affichage du tableau d'objets
+    </script>
+</body>
+
+</html>

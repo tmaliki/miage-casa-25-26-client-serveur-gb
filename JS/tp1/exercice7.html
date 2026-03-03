@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 7</title>
+</head>
+<body>
+    <h1>Exercice 7</h1>
+
+    <script>
+        // Niveau débutant
+        function estPairDebutant(nbr) {
+            if(nbr % 2 === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        // Niveau intermédiaire
+        function estPairIntermediaire(nbr) {
+            return nbr % 2 === 0 ? true : false;
+        }
+
+        // Niveau avancé
+        function estPairAvance(nbr) {
+            return nbr % 2 === 0;
+        }
+
+        //  Test des fonctions
+        const nombre = parseInt(prompt("Entrez un nombre entier :"));
+        console.log("Niveau débutant : " + estPairDebutant(nombre));
+        console.log("Niveau intermédiaire : " + estPairIntermediaire(nombre));
+        console.log("Niveau avancé : " + estPairAvance(nombre));
+    </script>
+</body>
+</html>

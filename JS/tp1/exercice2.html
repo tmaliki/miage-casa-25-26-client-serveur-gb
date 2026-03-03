@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+</head>
+<body>
+    <h1>Exercice 2</h1>
+
+    <script>
+        const a = prompt("Entrez la valeur de a :");
+        const b = prompt("Entrez la valeur de b :");
+        console.log("Valeur de a :", a);
+        console.log("Valeur de b :", b);
+        console.log("Type de a :", typeof a); // retourne le type de la variable a
+        console.log("Formatons a en entier :", typeof parseInt(a));
+        console.log("Formatons a en réel :", typeof parseFloat(a));
+
+        // Conversion des chaînes de caractères en nombres
+        const aNbr = parseFloat(a);
+        const bNbr = parseFloat(b);
+
+        // Addtion
+        const addition = aNbr + bNbr;
+        console.log("Addition de a et b :", addition);
+
+        // Soustraction
+        const soustraction = aNbr - bNbr;
+        console.log("Soustraction de a et b :", soustraction);
+
+        // Multiplication
+        const multiplication = aNbr * bNbr;
+        console.log("Multiplication de a et b :", multiplication);
+
+        // Division
+        const division = aNbr / bNbr;
+        console.log("Division de a et b :", division);
+    </script>
+</body>
+</html>

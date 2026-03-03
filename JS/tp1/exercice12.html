@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 12</title>
+</head>
+<body>
+    <h1>Exercice 12</h1>
+
+    <script>
+        const nombre1 = parseFloat(prompt("Veuillez entrer le premier nombre :"));
+        const nombre2 = parseFloat(prompt("Veuillez entrer le deuxième nombre :"));
+
+        if(nombre1 > 0 && nombre2 > 0) {
+            console.log("Les deux nombres sont positifs.");
+        } else if(nombre1 < 0 || nombre2 < 0) {
+            console.log("Au moins un des nombres est négatif.");
+        } else {
+            console.log("Au moins un des nombres est nul.");
+        }
+    </script>
+</body>
+</html>

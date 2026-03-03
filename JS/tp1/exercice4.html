@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 4</title>
+</head>
+<body>
+    <h1>Exercice 4</h1>
+
+    <script>
+        // Déclaration d'une fonction nommée
+        function carre(x) {
+            // return x * x;
+            return x ** 2;
+        }
+
+        // Appel de la fonction
+        console.log("Carré de 5 :", carre(5));
+
+        // Declaration de la fonction anonyme
+        const carreAnonyme = function(x) {
+            return x ** 2;
+        };
+
+        // Appel de la fonction anonyme
+        console.log("Carré de 6 :", carreAnonyme(6));
+
+        // Déclaration de la fonction fléchée
+        const carreFlechee = (x) => {
+            return x ** 2;
+        };
+
+        // Appel de la fonction fléchée
+        console.log("Carré de 7 :", carreFlechee(7));
+    </script>
+</body>
+</html>

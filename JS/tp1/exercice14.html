@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 14</title>
+</head>
+<body>
+    <h1>Exercice 14</h1>
+
+    <script>
+        const mois = parseInt(prompt("Saisissez un numéro de mois entre 1-12 : "))
+
+        switch (mois) {
+            case 1:
+            case 2:
+            case 12:
+                console.log("Hiver");
+                break;
+            
+            case 3:
+            case 4:
+            case 5:
+                console.log("Primptemps");
+                break;
+            
+            case 6:
+            case 7:
+            case 8:
+                console.log("Eté");
+                break;
+
+            case 9:
+            case 10:
+            case 11:
+                console.log("Automne");
+                break;
+
+            default:
+                console.log("Numéro de mois invalide.");
+        }
+    </script>
+</body>
+</html>

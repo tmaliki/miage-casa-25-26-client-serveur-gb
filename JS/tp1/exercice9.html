@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exer</title>
+</head>
+<body>
+    <h1>Exercice 9</h1>
+
+    <script>
+        function comparerChainesAvecCasse(chaine1, chaine2) {
+            if (chaine1 === chaine2) {
+                alert("Les deux chaînes sont identiques.");
+            } else {
+                alert("Les deux chaînes sont différentes.");
+            }
+        }
+
+        // toLowerCase() : permet de convertir une chaîne de caractères en minuscules
+        // toUpperCase() : permet de convertir une chaîne de caractères en majuscules
+        function comparerChainesIngoreCasse(chaine1, chaine2) {
+            if (chaine1.toLowerCase() === chaine2.toLowerCase()) {
+                alert("Les deux chaînes sont identiques.");
+            } else {
+                alert("Les deux chaînes sont différentes.");
+            }
+        }
+
+        // test
+        const chaine1 = prompt("Veuillez entrer la première chaîne :");
+        const chaine2 = prompt("Veuillez entrer la deuxième chaîne :");
+
+        // comparerChainesAvecCasse(chaine1, chaine2);
+        comparerChainesIngoreCasse(chaine1, chaine2);
+    </script>
+</body>
+</html>

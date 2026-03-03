@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5</title>
+</head>
+<body>
+    <h1>Exercice 5</h1>
+
+    <script>
+        function aireRectangle(long, larg) {
+            return long * larg;
+        }
+
+        const longueur = parseFloat(prompt("Entrez la longueur du rectangle :"));
+        const largeur = parseFloat(prompt("Entrez la largeur du rectangle :"));
+        const aire = aireRectangle(longueur, largeur);
+
+        // Affichage du résultat
+        alert("L'aire du rectangle est : " + aire);
+        console.log("L'aire du rectangle est : " + aire);
+    </script>
+</body>
+</html>
