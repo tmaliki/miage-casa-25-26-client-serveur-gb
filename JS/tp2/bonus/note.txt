@@ -1,0 +1,3 @@
+# Pour initialiser un projet Node il taper la commande suivante
+$ npm init
+$ npm init -y       # L'option -y ignore l'étape des questions
