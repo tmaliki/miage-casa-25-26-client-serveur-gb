@@ -1,0 +1,31 @@
+Exercice 1 : Opérations mathématiques simples avec REPL
+Écrivez une série de fonctions dans le Node.js REPL qui effectuent des opérations mathématiques de base. Les fonctions doivent :
+    a) Additionner deux nombres et renvoyer le résultat.
+    b) Soustraire deux nombres et renvoyer le résultat.
+    c) Multiplier deux nombres et renvoyer le résultat.
+    d) Diviser deux nombres et renvoyer le résultat.
+Instructions à suivre :
+    ▪ Ouvrez la Node.js REPL en tapant « node » dans votre terminal et en appuyant sur entrée.
+    ▪ Implémentez les fonctions une par une dans l'invite de la REPL.
+    ▪ Testez chaque fonction en l'appelant avec des exemples d'entrées dans l'invite REPL.
+
+### Response de l'exercice 1
+
+// implémentation des fonction une par une
+function addition(n1, n2) { return n1 + n2; }
+
+function soustraction(n1, n2) { return n1 - n2; }
+
+function multiplication(n1, n2) { return n1 * n2; }
+
+function division(n1, n2) { return n1 / n2; }
+
+// test des fonctions
+> addition(26, 4)
+>
+> soustraction(26, 4)
+>
+> multiplication(4, 4)
+>
+> division(16, 4)
+>
