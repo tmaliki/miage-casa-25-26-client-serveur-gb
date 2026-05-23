@@ -1,0 +1,31 @@
+## Initialisation d'un projet node
+$ npm init
+$ npm init -y     # l'option permettant d'ignorer l'étape des questions
+$
+
+## Installation des modules d'un projet node existant doté du fichier package.json
+$ npm install
+$
+
+## Installation d'un module spécifique dans un projet
+$ npm install <nom_module>
+$ # Exemple :
+$ npm install bootstrap
+$ 
+
+## Installation du module nodemon (en mode développement)
+$ npm install --save-dev nodemon
+$
+
+## Lancer/Démarrer un serveur avec les commandes et les scripts
+$ node server.js
+$ nodemon server.js
+$
+$ ## utilisation des scripts :
+$ npm start
+$ npm run dev
+$
+
+## Installation du framework express.js
+$ npm install express
+$
