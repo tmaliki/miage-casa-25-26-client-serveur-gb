@@ -1,0 +1,40 @@
+/* Chargement d'une police personnalisé en css */
+@font-face {
+    font-family: "Digital-7";
+    src: url("../fonts/digital_7/digital-7.ttf");
+}
+
+body {
+    background-color: #1a1919;
+    font-family: "Digital-7";
+    margin: 0;
+    height: 100vh;
+}
+
+.chrono-div {
+    min-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.3em;
+    font-weight: 500;
+}
+
+.temps {
+    margin: 0 20px 20px 20px;
+    font-size: 4.4em;
+    font-weight: 500;
+    color: rgba(9, 0, 104, 0.838);
+}
+
+button {
+    margin: 5px !important;
+    padding: 8px 20px !important;
+    font-weight: 700 !important;
+    letter-spacing: 5px !important;
+}
