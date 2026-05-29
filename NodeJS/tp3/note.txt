@@ -1,6 +1,6 @@
 ## Initialisation d'un projet node
 $ npm init
-$ npm init -y     # l'option permettant d'ignorer l'étape des questions
+$ npm init -y     # l'option -y permettant d'ignorer l'étape des questions
 $
 
 ## Installation des modules d'un projet node existant doté du fichier package.json
